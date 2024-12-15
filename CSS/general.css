@@ -1,0 +1,20 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* body: all styles within body is inherited in body section of HTML */
+body{
+  font-family: Roboto, Arial;   /* Font Stack: If Roboto fails to load from Google, we have a "back-up" font of Arial */
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: white;
+}
+
+@media (min-width: 1251px) {
+  body {
+    margin-left: 168px;
+  }
+}

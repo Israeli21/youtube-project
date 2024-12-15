@@ -1,0 +1,605 @@
+<!-- June 16, 2024: Youtube Project-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href = "/Youtube Project/CSS/general.css">
+    <link rel = "stylesheet" href = "/Youtube Project/CSS/header.css">
+    <link rel = "stylesheet" href = "/Youtube Project/CSS/video.css">
+    <link rel = "stylesheet" href = "/Youtube Project/CSS/sidebar.css">
+    <link rel = "stylesheet" href = "/Youtube Project/CSS/extra_features.css">
+  </head>
+  <body>
+
+    <header class = "header">
+      <div class = "left-section">
+        <img class = "hamburger-menu" src = "/Youtube Project/Icons/hamburger-menu.svg">
+        <a href = "https://www.youtube.com/" target = "_blank" class = "video-title-link">
+          <img class = "youtube-logo" src = "/Youtube Project/Icons/youtube-logo.svg">
+        </a>
+      </div>
+      <div class = "middle-section">
+        <!-- Youtube Seach Bar: -->
+        <input class = "search-bar" type = "text" placeholder = "Search">
+        <button class = "search-button">
+          <img class = "search-icon" src = "/Youtube Project/Icons/search.svg">
+          <div class = "tool-tip">Search</div>
+        </button>
+        <button class = "voice-search-button">
+          <img class = "voice-search-icon" src = "/Youtube Project/Icons/voice-search-icon.svg">
+          <div class = "tool-tip">Search with your voice</div>
+        </button>
+      </div>
+      <div class = "right-section">
+        <div class = "upload-icon-container">
+          <img class = "upload-icon" src = "/Youtube Project/Icons/upload.svg">
+          <div class = "tool-tip">Create</div>
+        </div>
+        <div class = "youtube-apps-container">
+          <img class = "youtube-apps-icon" src = "/Youtube Project/Icons/youtube-apps.svg">
+          <div class = "tool-tip">Youtube apps</div>
+        </div>
+        <div class = "notifications-icon-container">
+          <img class = "notifications-icon" src = "/Youtube Project/Icons/notifications.svg">
+          <div class = "tool-tip">Notifications</div>
+          <div class = "notifications-count">3</div>
+        </div>
+        <img class = "current-user-picture" src = "/Youtube Project/ChannelPictures/my-icon.jpg">
+      </div>
+    </header>
+
+    <div class = "video-types-container">      
+      <button class = "video-types-all">All</button>
+      <button class = "video-types">Gaming</button>
+      <button class = "video-types">News</button>
+      <button class = "video-types">Comic books</button>
+      <button class = "video-types">Computer programming</button>
+      <button class = "video-types">Live</button>
+      <!-- <button>Recently uploaded</button>
+      <button>Watched</button>
+      <button>New to you</button> -->
+      <button class = "scroll-next-button">
+        <img class = "scroll-next-img" src = "/Youtube Project/Icons/greater-than-symbol.svg">
+        <div class = "tool-tipp">Next</div>
+      </button>
+    </div>
+
+    <nav class = "sidebar">
+      <div class = "sidebar-link">
+        <img src = "/Youtube Project/Icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "/Youtube Project/Icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "/Youtube Project/Icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "/Youtube Project/Icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "/Youtube Project/Icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class = "sidebar-link">
+        <img src = "/Youtube Project/Icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+
+    <main>
+      <section class = "video-grid">
+        <!-- Marques Brownlee Division: -->
+        <div class = "video-preview">
+          <!-- Thumbnail Picture: -->
+          <div class = "thumbnail-row">
+            <a href = "https://www.youtube.com/watch?v=n2RNcPRtAiY" target = "_blank" class = "video-title-link">
+              <img class = "thumbnail" src = "/Youtube Project/Thumbnails/thumbnail1.webp">
+            </a>
+            <div class = "video-time">14:20</div>
+          </div>
+          <!-- Video Information: -->
+          <div class = "video-info-grid">
+            <!-- Channel Picture: -->
+            <div class = "channel-picture">
+              <div class="profile-picture-container">
+                <a href="https://youtube.com/c/mkbhd" target="_blank">
+                  <img class="profile-picture" src="/Youtube Project/ChannelPictures/channel-1.jpeg">
+                </a>
+                <div class="channel-tooltip">
+                  <img class="channel-tooltip-picture" src="/Youtube Project/ChannelPictures/channel-1.jpeg">
+                  <div>
+                    <div class="channel-tooltip-name">
+                      Marques Brownlee
+                    </div>
+                    <div class="channel-tooltip-stats">
+                      15M subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Video Info: -->
+            <div class = "video-info"> 
+              <a href = "https://www.youtube.com/watch?v=n2RNcPRtAiY" target = "_blank" class = "video-title-link">
+                <p class = "video-title">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+              </a>
+              <p class = "video-author">Marques Brownlee</p>
+              <p class = "video-stats">3.4M views &#183; 6 months ago</p>  
+            </div>
+          </div> 
+        </div>
+  
+      <!-- Programming with Mosh Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=_uQrJ0TkZlc&list=PL2PREgmkP8_kjnM4RLsWIel2NJkhW-znN" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/PythonMosh.png">
+          </a>
+          <div class = "video-time">6:14:07</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture-->
+          <div class = "channel-picture">
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@programmingwithmosh" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/ProgrammingwithMosh.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/ProgrammingwithMosh.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    Programming with Mosh
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    3.97M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Vidoe Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=_uQrJ0TkZlc&list=PL2PREgmkP8_kjnM4RLsWIel2NJkhW-znN" target = "_blank" class = "video-title-link">
+              <p class = "video-title">Python Tutorial - Python Full Course for Beginners</p>
+            </a>
+            <p class = "video-author">Programming with Mosh</p>
+            <p class = "video-stats">3.9M views &#183; 5 years ago</p>  
+          </div>
+        </div>   
+      </div>
+
+      <!-- Markiplier Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=3PGx1VWM4tA&list=LL&index=26&t=1507s" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/unoFlip.jpg">
+          </a>
+          <div class = "video-time">29:37</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture-->
+          <div class = "channel-picture">
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@markiplier" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/Markiplier.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/Markiplier.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    Markiplier
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    37.1M subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Vidoe Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=3PGx1VWM4tA&list=LL&index=26&t=1507s" target = "_blank" class = "video-title-link">
+              <p class = "video-title">A COMPLETELY NEW WAY TO PLAY!! | UNO Flip!</p>
+            </a>
+            <p class = "video-author">Markiplier</p>
+            <p class = "video-stats">7M views &#183; 4 years ago</p>  
+          </div>
+        </div>   
+      </div>
+  
+      <!-- SuperSimpleDev Division: -->
+      <div class = "video-preview">
+          <div class = "thumbnail-row">
+            <a href = "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22051s" target = "_blank" class = "video-title-link">
+              <img class = "thumbnail" src = "/Youtube Project/Thumbnails/HTMLCSS.jpg">
+            </a>
+            <div class = "video-time">6:31:24</div>
+          </div>
+          <div class = "video-info-grid">
+          <!-- Channel Picture-->
+          <div class = "channel-picture">
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@SuperSimpleDev" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/SuperDev.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/SuperDev.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    SuperSimpleDev
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    455K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22051s" target = "_blank" class = "video-title-link">  
+              <p class = "video-title">HTML & CSS Full Course - Beginner to Pro</p>
+            </a>
+            <p class = "video-author">SuperSimpleDev</p>
+            <p class = "video-stats">10M views &#183; 2 years ago</p>  
+          </div>
+        </div> 
+      </div>
+
+      <!-- Mad Hat Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=YeWYlp9JP6g&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=9" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/MadHat.jpg">
+          </a>
+          <div class = "video-time">21:59</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture -->
+          <div class = "channel-picture"> 
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@madhatistaken" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/madHat.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/madHat.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    Mad Hat
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    82.8K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=YeWYlp9JP6g&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=9" target = "_blank" class = "video-title-link">
+              <p class = "video-title">Cybersecurity Certificate Tier List (2023)</p>
+            </a>
+            <p class = "video-author">Mad Hat</p>
+            <p class = "video-stats">613K views &#183; 1 year ago</p>  
+          </div>
+        </div>   
+      </div>
+
+      <!-- C++ SIMPLE SNAKE GAME:  -->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=E_-lMZDi7Uw&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=4" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/SnakeGame.jpg">
+          </a>
+          <div class = "video-time">11:15</div>
+        </div>
+        <div class = "video-info-grid">
+          <div class = "channel-picture"> 
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@NVitanovic" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/NVitanovic.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/NVitanovic.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    NVitanovic
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    48.5K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=E_-lMZDi7Uw&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=5" target = "_blank" class = "video-title-link">
+              <p class = "video-title">C++ Tutorial 18 - Simple Snake Game (Part 1)</p>
+            </a>
+            <p class = "video-author">NVitanovic</p>
+            <p class = "video-stats">2.2M views &#183; 9 years ago</p>
+          </div>
+        </div>   
+    </div>
+
+    <!-- Tech Projects:  -->
+    <div class = "video-preview">
+      <div class = "thumbnail-row">
+        <a href = "https://www.youtube.com/watch?v=LxkXT9WD7yk&list=LL&index=160" target = "_blank" class = "video-title-link">
+          <img class = "thumbnail" src = "/Youtube Project/Thumbnails/github.jpg">
+        </a>
+        <div class = "video-time">4:09</div>
+      </div>
+      <div class = "video-info-grid">
+        <div class = "channel-picture"> 
+          <div class = "profile-picture-container">
+            <a href = "https://www.youtube.com/@TechProjects" target = "_blank">
+              <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/TechProjects.jpg">
+            </a>
+            <div class = "channel-tooltip">
+              <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/TechProjects.jpg">
+              <div>
+                <div class = "channel-tooltip-name">
+                  Tech Projects
+                </div>
+                <div class = "channel-tooltip-stats">
+                  27.5K subscribers
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class = "video-info"> 
+          <a href = "https://www.youtube.com/watch?v=LxkXT9WD7yk&list=LL&index=160" target = "_blank" class = "video-title-link">
+            <p class = "video-title">How to push changes from visual studio code to GitHub | Tech Projects</p>
+          </a>
+          <p class = "video-author">Tech Projects</p>
+          <p class = "video-stats">176K views &#183; 4 years ago</p>
+        </div>
+      </div>   
+    </div>
+  
+      <!-- Data Analyst Courses Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=X7eAwyMvm2c&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=22" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/DACourses.jpg">
+          </a>
+          <div class = "video-time">8:40</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture -->
+          <div class = "channel-picture"> 
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@Stefanovic92" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/StefaNovic.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/StefaNovic.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    Stefanovic
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    309K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=X7eAwyMvm2c&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=22" target = "_blank" class = "video-title-link">
+              <p class = "video-title">I Tried 50 Data Analyst Courses. Here Are Top 5</p>
+            </a>
+            <p class = "video-author">Stefanovic</p>
+            <p class = "video-stats">147K views &#183; 1 month ago</p>  
+          </div>
+        </div>   
+      </div>
+
+      <!-- JavaScript (SuperSimpleDev) Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=EerdGm-ehJQ&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=7" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/JavaScript1.jpg">
+          </a>
+          <div class = "video-time">22:15:57</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture -->
+          <div class = "channel-picture"> 
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@SuperSimpleDev" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/SuperDev.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/SuperDev.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    SuperSimpleDev
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    455K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=EerdGm-ehJQ&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=7" target = "_blank" class = "video-title-link">
+              <p class = "video-title">JavaScript Tutorial Full Course - Beginner to Pro (2024)</p>
+            </a>
+            <p class = "video-author">SuperSimpleDev</p>
+            <p class = "video-stats">869K views &#183; 2 months ago</p>  
+          </div>
+        </div>   
+      </div>
+
+      <!-- Garrett Codes Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=wufc6w8fqvY&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=13" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/Garrett Codes.jpg">
+          </a>
+          <div class = "video-time">4:41</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture -->
+          <div class = "channel-picture"> 
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@GarrettCodes" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/Garrett Codes.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/Garrett Codes.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    Garrett Codes
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    6.83K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=wufc6w8fqvY&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=13" target = "_blank" class = "video-title-link">
+              <p class = "video-title">3 Months of Learning Leetcode</p>
+            </a>
+            <p class = "video-author">Garrett Codes</p>
+            <p class = "video-stats">100K views &#183; 1 year ago</p>  
+          </div>
+        </div>   
+      </div>
+
+      <!-- Tim Kim Division-->
+      <div class = "video-preview">
+        <div class = "thumbnail-row">
+          <a href = "https://www.youtube.com/watch?v=WR1ydijTx5E&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=14" target = "_blank" class = "video-title-link">
+            <img class = "thumbnail" src = "/Youtube Project/Thumbnails/fourMonths.jpg">
+          </a>
+          <div class = "video-time">4:41</div>
+        </div>
+        <div class = "video-info-grid">
+          <!-- Channel Picture -->
+          <div class = "channel-picture"> 
+            <div class = "profile-picture-container">
+              <a href = "https://www.youtube.com/@TimKimMe" target = "_blank">
+                <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/TimKim.jpg">
+              </a>
+              <div class = "channel-tooltip">
+                <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/TimKim.jpg">
+                <div>
+                  <div class = "channel-tooltip-name">
+                    Tim Kim
+                  </div>
+                  <div class = "channel-tooltip-stats">
+                    158K subscribers
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Video Info-->
+          <div class = "video-info"> 
+            <a href = "https://www.youtube.com/watch?v=WR1ydijTx5E&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=14" target = "_blank" class = "video-title-link">
+              <p class = "video-title">How I Learned to Code in 4 Months & Got a Job! (No CS Degree, No Bootcamp)</p>
+            </a>
+            <p class = "video-author">Tim Kim</p>
+            <p class = "video-stats">5.2M views &#183; 1 year ago</p>  
+          </div>
+        </div>   
+      </div>
+    
+      <!-- How to Become a Developer Division:  -->
+      <div class = "video-preview">
+          <div class = "thumbnail-row">
+            <a href = "https://www.youtube.com/watch?v=ldwlOzRvYOU&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=21" target = "_blank" class = "video-title-link">
+              <img class = "thumbnail" src = "/Youtube Project/Thumbnails/Responsive.webp">
+            </a>
+            <div class = "video-time">2:12:20</div>
+          </div>
+          <div class = "video-info-grid">
+            <div class = "channel-picture"> 
+              <div class = "profile-picture-container">
+                <a href = "https://www.youtube.com/@howtobecomeadeveloper" target = "_blank">
+                  <img class = "profile-picture" src = "/Youtube Project/ChannelPictures/how-to.jpg">
+                </a>
+                <div class = "channel-tooltip">
+                  <img class = "channel-tooltip-picture" src = "/Youtube Project/ChannelPictures/how-to.jpg">
+                  <div>
+                    <div class = "channel-tooltip-name">
+                      How to Become a Developer
+                    </div>
+                    <div class = "channel-tooltip-stats">
+                      17.6K subscribers
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class = "video-info"> 
+              <a href = "https://www.youtube.com/watch?v=ldwlOzRvYOU&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=21" target = "_blank" class = "video-title-link">
+                <p class = "video-title">Responsive Portfolio Website From Scratch</p>
+              </a>
+              <p class = "video-author">How to Become a Developer</p>
+              <p class = "video-stats">803K views &#183; 1 year ago</p>  
+            </div>
+          </div>   
+      </div>
+
+
+
+      </section>
+    </main>
+  </body>
+</html>
+
+<!-- HTML & CSS Course (Notes):
+Loading Images & Search Boxes (Notes):
+<img>: Void Element
+Placeholder: the "Search" inside textboxes
+
+Display Properties (Notes):
+  - Block Element I(paragraphs): takes up the entire line
+  - Inline-Block Element: only takes up as much space as they need to
+  - Inline Element: appears in lines of text
+
+Division <div>: Box that can contain other elements. Meant to be containers. Is a block element
+
+100%: Will fill the entire space of the container
+Nested Layouts Technique: 
+  - Vertical Layouts
+  - Horzontal Layouts
+
+CSS Grid (Notes): layout is more rigid for grid
+
+Flexbox (Notes): is similar to CSS Grid, but more flexible
+
+CSS Positon:
+  - Keeps the header at the top as you scroll
+  - Keeps the side bar at the top of the page
+  - Used whenever there is another element on top of another element
+
+Responsive Design:
+  - Making the website look as good as possible, at every screen size
+
+Inheritance:
+  - If we add a style to the outer grid in CSS, then that style will be inherited to all grid inside
+
+Semantic Elements: <header> <nav> have a special meaning to screen readers, screem engines
+  -->

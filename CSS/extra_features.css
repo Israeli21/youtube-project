@@ -1,0 +1,77 @@
+/* VIDEO TYPES CONTAINER -------------------------------------------- */
+.video-types-container{
+    z-index: 50;
+    position: fixed;
+
+    background-color: white;
+    right: 0;
+    left: 72px;
+    top: 55px;
+    
+    height: 85px;
+
+    /* border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228); */
+}
+
+.video-types-all.video-types-all{
+    background-color: black;
+    color: rgb(245, 245, 245);
+}
+
+.video-types-all,
+.video-types{
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(66, 66, 66);
+
+    border: none;
+    padding: 8px 12px;  /* padding: Verticle(px) Horizontal(px) */
+    border-radius: 7px;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.video-types:hover{
+    background-color: rgb(220, 220, 220);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.scroll-next-button{
+    padding: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    font-size: 20px;
+    background-color: white;
+    border-radius: 18px;
+    border: none;
+    z-index: 400px;
+}
+
+.scroll-next-button:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.scroll-next-img{
+    height: 12px;
+}
+
+.scroll-next-button .tool-tipp{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
