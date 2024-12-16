@@ -18,10 +18,31 @@
   align-items: center;
 }
 
-.hamburger-menu{
-  height: 24px;
+.hamburger-button{
+  height: 38px;
+  width: 38px;
+
   margin-left: 24px;
   margin-right: 20px;
+  padding-left: 1px;
+
+  border-radius: 19px;
+  border: none;
+  background-color: white;
+}
+
+.hamburger-button:hover{
+  background-color: rgb(230, 230, 230);
+}
+
+.hamburger-button:active{
+  background-color: rgb(210, 210, 210);
+}
+
+.hamburger-menu{
+  height: 24px;
+  padding-top: 5px;
+  padding-left: 5px;
 }
 
 .youtube-logo{
