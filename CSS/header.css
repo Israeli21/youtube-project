@@ -140,6 +140,22 @@
   cursor: pointer;
 }
 
+.upload-icon{
+  margin-left: 2px;
+}
+
+.header-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+}
+
+.header-button:hover{
+  background-color: rgb(225, 225, 225);
+}
+
 .search-button:hover{
   background-color: rgb(236, 236, 236);
 }
@@ -207,4 +223,9 @@
 .current-user-picture{
   height: 32px;
   border-radius: 16px;
+  margin-left: 5px;
+}
+
+.current-user-picture:hover{
+  cursor: pointer;
 }
