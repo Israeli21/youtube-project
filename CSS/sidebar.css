@@ -31,6 +31,10 @@
   .sidebar-link div{
     font-size: 10px;
   }
+
+  .faded-line{
+    opacity: 0;
+  }
 }
 
 @media (min-width: 1251px) {
@@ -63,5 +67,10 @@
   
   .sidebar-link div{
     font-size: 14px;
+  }
+
+  .faded-line{
+    margin-left: 10px;
+    opacity: 0.3;
   }
 }

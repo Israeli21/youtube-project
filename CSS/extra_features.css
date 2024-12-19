@@ -5,6 +5,7 @@
 
     background-color: white;
     top: 55px;
+    height: 60px;
 
     /* border-bottom-width: 1px;
     border-bottom-style: solid;
@@ -49,6 +50,10 @@
 
 .scroll-next-button:hover{
     background-color: rgb(226, 226, 226);
+}
+
+.scroll-next-button:active{
+    background-color: rgb(210, 210, 210);
 }
 
 .scroll-next-img{
