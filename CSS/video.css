@@ -25,12 +25,12 @@
 
 .video-info-grid{
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 50px 6fr 1fr;
 }
 
 .profile-picture{
-  width: 36px; 
-  border-radius: 20px;
+  width: 38px; 
+  border-radius: 19px;
 }
 
 .thumbnail-row{
@@ -54,6 +54,27 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+}
+
+.three-dots-container{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: white;
+}
+
+.three-dots-container:hover{
+  background-color: rgb(225, 225, 225);
+  cursor: pointer;
+}
+
+.three-dots-container:active{
+  background-color: white;
+}
+
+.three-dots-img{
+  height: 17px;
 }
 
 @media (max-width: 650px) {
