@@ -22,8 +22,8 @@
   height: 38px;
   width: 38px;
 
-  margin-left: 24px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   padding-left: 1px;
 
   border-radius: 19px;
@@ -47,6 +47,7 @@
 
 .youtube-logo{
   height: 20px;
+  margin-top: 5px;
 }
 
 /* MIDDLE SECTION */
@@ -184,7 +185,7 @@
 
 .right-section{
   width: 180px;
-  margin-right: 20px;
+  margin-right: 26px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -224,7 +225,7 @@
 .current-user-picture{
   height: 32px;
   border-radius: 16px;
-  margin-left: 5px;
+  margin-left: 10px;
 }
 
 .current-user-picture:hover{

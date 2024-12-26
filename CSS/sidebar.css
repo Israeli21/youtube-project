@@ -1,3 +1,4 @@
+/* Half Screen Code: */
 @media (max-width: 1250px) {
   .sidebar{
     position: fixed;
@@ -20,7 +21,8 @@
   }
   
   .sidebar-link:hover{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(232, 232, 232);
+    border-radius: 8px;
   }
   
   .sidebar-link img { /* Modifies all images(img) related to "sidebar-link" class */
@@ -33,10 +35,15 @@
   }
 
   .faded-line{
-    opacity: 0;
+    display: none;
+  }
+
+  #sidebar-bottom-part{
+    display: none;
   }
 }
 
+/* Full Screen Code: */
 @media (min-width: 1251px) {
   .sidebar{
     position: fixed;
@@ -49,28 +56,58 @@
     padding-top: 13px;
   }
   
-  .sidebar-link{
+  .sidebar-link,
+  .sidebar-link-none{
     display: flex;
     align-items: center;
     cursor: pointer;
-    padding: 8px 24px;
+    padding: 8px 18px 8px 12px;
+    margin-left: 12px;
+    /* padding: 8px 24px 8px 10px; */
+  }
+
+  .sidebar-link-none{
+    cursor: default;
+    font-weight: 500;
   }
   
   .sidebar-link:hover{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(227, 227, 227);
+    border-radius: 8px;
+    width: 180px;
   }
   
   .sidebar-link img { /* Modifies all images(img) related to "sidebar-link" class */
     height: 24px;
     margin-right: 24px;
   }
+
+  .sidebar-link .scroll-next-img{
+    height: 12px;
+    margin-left: 10px;
+  }
   
   .sidebar-link div{
     font-size: 14px;
   }
 
+  .sidebar-link .sidebar-subtitle{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
   .faded-line{
-    margin-left: 10px;
+    margin-left: 12px;
     opacity: 0.3;
+    margin-bottom: 10px;
+  }
+
+  .sidebar-channel{
+    border-radius: 12px;
+  }
+
+  .sidebar-link .shorts-icon{
+    margin-right: 30px;
+    height: 20px;
   }
 }

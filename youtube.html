@@ -65,48 +65,133 @@
         <div>Home</div>
       </div>
       <div class = "sidebar-link">
-        <img src = "/youtube-project/Icons/explore.svg">
-        <div>Explore</div>
+        <img class = "shorts-icon" src = "/youtube-project/Icons/shorts-icon.png">
+        <div>Shorts</div>
       </div>
       <div class = "sidebar-link">
         <img src = "/youtube-project/Icons/subscriptions.svg">
         <div>Subscriptions</div>
       </div>
-      <div class = "sidebar-link">
-        <img src = "/youtube-project/Icons/originals.svg">
-        <div>Originals</div>
-      </div>
-      <div class = "sidebar-link">
-        <img src = "/youtube-project/Icons/youtube-music.svg">
-        <div>Youtube Music</div>
-      </div>
-      <div class = "sidebar-link">
-        <img src = "/youtube-project/Icons/library.svg">
-        <div>Library</div>
-      </div>
-      <p class = "faded-line">_____________________________</p>
+      <nav id = "sidebar-bottom-part">
+        <p class = "faded-line">_____________________________</p>
+        <div class = "sidebar-link">
+          <div class = "sidebar-subtitle">You</div>
+          <img class = "scroll-next-img" src = "/youtube-project/Icons/greater-than-symbol.svg">
+        </div>
+        <div class = "sidebar-link">
+          <img src = "/youtube-project/Icons/originals.svg">
+          <div>Originals</div>
+        </div>
+        <div class = "sidebar-link">
+          <img src = "/youtube-project/Icons/youtube-music.svg">
+          <div>Youtube Music</div>
+        </div>
+        <div class = "sidebar-link">
+          <img src = "/youtube-project/Icons/library.svg">
+          <div>Library</div>
+        </div>
+        <div class = "sidebar-link">
+          <img src = "/youtube-project/Icons/explore.svg">
+          <div>Explore</div>
+        </div>
+        <p class = "faded-line">_____________________________</p>
+        <div class = "sidebar-link-none">
+          <div class = "sidebar-subtitle">Subscriptions</div>
+        </div>
+        <div class = "sidebar-link">
+          <img class = "sidebar-channel" src = "/youtube-project/ChannelPictures/SuperDev.jpg">
+          <div>SuperSimpleDev</div>
+        </div>
+        <div class = "sidebar-link">
+          <img class = "sidebar-channel" src = "/youtube-project/ChannelPictures/ProgrammingwithMosh.jpg">
+          <div>ProgrammingwithMosh</div>
+        </div>
+        <div class = "sidebar-link">
+          <img class = "sidebar-channel" src = "/youtube-project/ChannelPictures/Markiplier.jpg">
+          <div>Markiplier</div>
+        </div>
+        <div class = "sidebar-link">
+          <img class = "sidebar-channel" src = "/youtube-project/ChannelPictures/channel-1.jpeg">
+          <div>Marques Brownlee</div>
+        </div>
+        <div class = "sidebar-link">
+          <img class = "sidebar-channel" src = "/youtube-project/ChannelPictures/StefaNovic.jpg">
+          <div>Stefanovic</div>
+        </div>
+      </nav>
     </nav>
 
 
     <main>
-      <section class = "video-types-container">      
-        <button class = "video-types-all">All</button>
-        <button class = "video-types">Gaming</button>
-        <button class = "video-types">News</button>
-        <button class = "video-types">Comic books</button>
-        <button class = "video-types">Computer programming</button>
-        <button class = "video-types">Live</button>
-        <!-- <button>Recently uploaded</button>
-        <button>Watched</button>
-        <button>New to you</button> -->
-        <!--three-dots-vertical.svg-->
-        <button class = "scroll-next-button">
-          <img class = "scroll-next-img" src = "/youtube-project/Icons/greater-than-symbol.svg">
-          <div class = "tool-tipp">Next</div>
-        </button>
-      </section>
+      <nav id= "video-types-container-nav">      
+        <div class = "video-types-container">
+          <button class = "video-types-all">All</button>
+          <button class = "video-types">Gaming</button>
+          <button class = "video-types">News</button>
+          <button class = "video-types">Comic books</button>
+          <button class = "video-types">Computer programming</button>
+          <button class = "video-types">Live</button>
+          <!-- <button>Recently uploaded</button>
+          <button>Watched</button>
+          <button>New to you</button> -->
+          <!--three-dots-vertical.svg-->
+          <button class = "scroll-next-button">
+            <img class = "scroll-next-img" src = "/youtube-project/Icons/greater-than-symbol.svg">
+            <div class = "tool-tipp">Next</div>
+          </button>
+        </div>
+      </nav>
+      <nav id = "video-types-container-expanded-nav">      
+        <div class = "video-types-container-expanded">
+          <button class = "video-types-all">All</button>
+          <button class = "video-types">Gaming</button>
+          <button class = "video-types">News</button>
+          <button class = "video-types">Comic books</button>
+          <button class = "video-types">Computer programming</button>
+          <button class = "video-types">Films</button>
+          <button class = "video-types">Music</button>
+          <button class = "video-types">Marvel</button>
+          <button class = "video-types">Live</button>
+          <button class = "video-types">Recently uploaded</button>
+          <button class = "video-types">Watched</button>
+          <button class = "video-types">New to you</button>
+          <button class = "scroll-next-button">
+            <img class = "scroll-next-img" src = "/youtube-project/Icons/greater-than-symbol.svg">
+            <div class = "tool-tipp">Next</div>
+          </button>
+        </div>
+      </nav>
+      
       <section class = "video-grid">
-        
+        <!-- Communication Ad Division: -->
+        <div class = "video-preview">
+          <!-- Thumbnail Picture: -->
+          <div class = "thumbnail-row">
+              <img class = "thumbnail" src = "/youtube-project/Thumbnails/communication-ad.png">
+            </a>
+            <div class = "video-time">14:20</div>
+          </div>
+          <!-- Video Information: -->
+          <div class = "video-info-grid">
+            <!-- Channel Picture: -->
+            <div class = "channel-picture">
+              <div class="profile-picture-container">
+                  <img class="profile-picture" src="/youtube-project/ChannelPictures/ad-logo.png">
+                </a>
+              </div>
+            </div>
+            <!-- Video Info: -->
+            <div class = "video-info"> 
+                <p class = "video-title">Connect and Cooperate with your team, all online.</p>
+              </a>
+              <p class = "video-stats"><span class="sponsored">Sponsored &#183;</span> Fake Ads Inc.</p>  
+            </div>
+            <div class = "video-options">
+              <button class = "three-dots-container">
+                <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
+              </button>
+            </div></div></div>
+
         <!-- Marques Brownlee Division: -->
         <div class = "video-preview">
           <!-- Thumbnail Picture: -->
@@ -122,18 +207,11 @@
             <div class = "channel-picture">
               <div class="profile-picture-container">
                 <a href="https://youtube.com/c/mkbhd" target="_blank">
-                  <img class="profile-picture" src="/youtube-project/ChannelPictures/channel-1.jpeg">
+                  <img class="profile-picture" src = "/youtube-project/ChannelPictures/channel-1.jpeg">
                 </a>
                 <div class="channel-tooltip">
                   <img class="channel-tooltip-picture" src="/youtube-project/ChannelPictures/channel-1.jpeg">
-                  <div>
-                    <div class="channel-tooltip-name">
-                      Marques Brownlee
-                    </div>
-                    <div class="channel-tooltip-stats">
-                      15M subscribers
-                    </div>
-                  </div>
+                  <div><div class="channel-tooltip-name">Marques Brownlee</div><div class="channel-tooltip-stats">15M subscribers</div></div>
                 </div>
               </div>
             </div>
@@ -149,9 +227,7 @@
               <button class = "three-dots-container">
                 <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
               </button>
-            </div>
-          </div> 
-        </div>
+            </div></div></div>
   
       <!-- Programming with Mosh Division-->
       <div class = "video-preview">
@@ -170,14 +246,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/ProgrammingwithMosh.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    Programming with Mosh
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    3.97M subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">Programming with Mosh</div><div class="channel-tooltip-stats">3.97M subscribers</div></div>
               </div>
             </div>
           </div>
@@ -193,9 +262,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
 
       <!-- Markiplier Division-->
       <div class = "video-preview">
@@ -214,14 +281,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/Markiplier.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    Markiplier
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    37.1M subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">Markiplier</div><div class="channel-tooltip-stats">37.1M subscribers</div></div>
               </div>
             </div>
           </div>
@@ -237,9 +297,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
   
       <!-- SuperSimpleDev Division: -->
       <div class = "video-preview">
@@ -258,14 +316,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/SuperDev.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    SuperSimpleDev
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    455K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">SuperSimpleDev</div><div class="channel-tooltip-stats">455K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -281,9 +332,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div> 
-      </div>
+          </div></div></div>
 
       <!-- Mad Hat Division-->
       <div class = "video-preview">
@@ -302,14 +351,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/madHat.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    Mad Hat
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    82.8K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">Mad Hat</div><div class="channel-tooltip-stats">82.8K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -325,9 +367,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
 
       <!-- C++ SIMPLE SNAKE GAME:  -->
       <div class = "video-preview">
@@ -345,14 +385,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/NVitanovic.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    NVitanovic
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    48.5K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">NVitanovic</div><div class="channel-tooltip-stats">48.5K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -367,9 +400,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-    </div>
+          </div></div></div>
 
     <!-- Tech Projects:  -->
     <div class = "video-preview">
@@ -387,14 +418,7 @@
             </a>
             <div class = "channel-tooltip">
               <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/TechProjects.jpg">
-              <div>
-                <div class = "channel-tooltip-name">
-                  Tech Projects
-                </div>
-                <div class = "channel-tooltip-stats">
-                  27.5K subscribers
-                </div>
-              </div>
+              <div><div class="channel-tooltip-name">Tech Projects</div><div class="channel-tooltip-stats">27.5K subscribers</div></div>
             </div>
           </div>
         </div>
@@ -409,9 +433,7 @@
           <button class = "three-dots-container">
             <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
           </button>
-        </div>
-      </div>   
-    </div>
+        </div></div></div>
   
       <!-- Data Analyst Courses Division-->
       <div class = "video-preview">
@@ -430,14 +452,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/StefaNovic.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    Stefanovic
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    309K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">Stefanovi</div><div class="channel-tooltip-stats">309K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -453,9 +468,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
 
       <!-- JavaScript (SuperSimpleDev) Division-->
       <div class = "video-preview">
@@ -474,14 +487,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/SuperDev.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    SuperSimpleDev
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    455K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">SuperSimpleDev</div><div class="channel-tooltip-stats">455K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -497,9 +503,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
 
       <!-- Garrett Codes Division-->
       <div class = "video-preview">
@@ -518,14 +522,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/Garrett Codes.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    Garrett Codes
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    6.83K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">Garrett Codes</div><div class="channel-tooltip-stats">6.83K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -541,9 +538,7 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
 
       <!-- Tim Kim Division-->
       <div class = "video-preview">
@@ -562,14 +557,7 @@
               </a>
               <div class = "channel-tooltip">
                 <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/TimKim.jpg">
-                <div>
-                  <div class = "channel-tooltip-name">
-                    Tim Kim
-                  </div>
-                  <div class = "channel-tooltip-stats">
-                    158K subscribers
-                  </div>
-                </div>
+                <div><div class="channel-tooltip-name">Tim Kim</div><div class="channel-tooltip-stats">158K subscribers</div></div>
               </div>
             </div>
           </div>
@@ -585,12 +573,10 @@
             <button class = "three-dots-container">
               <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
             </button>
-          </div>
-        </div>   
-      </div>
+          </div></div></div>
     
       <!-- How to Become a Developer Division:  -->
-      <div class = "video-preview">
+        <div class = "video-preview">
           <div class = "thumbnail-row">
             <a href = "https://www.youtube.com/watch?v=ldwlOzRvYOU&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=21" target = "_blank" class = "video-title-link">
               <img class = "thumbnail" src = "/youtube-project/Thumbnails/Responsive.webp">
@@ -605,18 +591,11 @@
                 </a>
                 <div class = "channel-tooltip">
                   <img class = "channel-tooltip-picture" src = "/youtube-project/ChannelPictures/how-to.jpg">
-                  <div>
-                    <div class = "channel-tooltip-name">
-                      How to Become a Developer
-                    </div>
-                    <div class = "channel-tooltip-stats">
-                      17.6K subscribers
-                    </div>
-                  </div>
+                  <div><div class="channel-tooltip-name">How to Become a Developer</div><div class="channel-tooltip-stats">17.6K subscribers</div></div>
                 </div>
               </div>
             </div>
-            <div class = "video-info"> 
+            <div class = "video-info">
               <a href = "https://www.youtube.com/watch?v=ldwlOzRvYOU&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=21" target = "_blank" class = "video-title-link">
                 <p class = "video-title">Responsive Portfolio Website From Scratch</p>
               </a>
@@ -627,11 +606,7 @@
               <button class = "three-dots-container">
                 <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
               </button>
-            </div>
-          </div>   
-      </div>
-
-
+            </div></div></div>
 
       </section>
     </main>
@@ -671,4 +646,5 @@ Inheritance:
   - If we add a style to the outer grid in CSS, then that style will be inherited to all grid inside
 
 Semantic Elements: <header> <nav> have a special meaning to screen readers, screem engines
+Longest Code Extent: 762 LINES!   Reduced Lines Total: 650 LINES!
   -->
