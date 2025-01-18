@@ -5,7 +5,7 @@ let bodyHTML = `
 <div class = "video-preview">
   <!-- Thumbnail Picture: -->
   <div class = "thumbnail-row">
-      <img class = "thumbnail" src = "/youtube-project/Thumbnails/communication-ad.png">
+      <img class = "thumbnail" src = "/youtube-project/images/thumbnails/videos/communication-ad.png">
     </a>
     <div class = "video-time">14:20</div>
   </div>
@@ -26,7 +26,7 @@ let bodyHTML = `
     </div>
     <div class = "video-options">
       <button class = "three-dots-container">
-        <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
+        <img class = "three-dots-img" src = "/youtube-project/images/icons/three-dots-vertical.svg">
       </button>
     </div></div></div>
 `
@@ -64,7 +64,7 @@ bodyHTML += `
     </div>
       <div class = "video-options">
         <button class = "three-dots-container">
-          <img class = "three-dots-img" src = "/youtube-project/Icons/three-dots-vertical.svg">
+          <img class = "three-dots-img" src = "/youtube-project/images/icons/three-dots-vertical.svg">
         </button>
       </div>
   </div>

@@ -2,7 +2,7 @@ const videos = [
     {
         // 1) Marques Brownlee CONTAINER:
         link: "https://www.youtube.com/watch?v=n2RNcPRtAiY",
-        thumbnail: "/youtube-project/Thumbnails/thumbnail1.webp",
+        thumbnail: "/youtube-project/images/thumbnails/videos/thumbnail1.webp",
         videoTime: "14:20",
         channelLink: "https://youtube.com/c/mkbhd",
         channelPicture: "/youtube-project/ChannelPictures/channel-1.jpeg",
@@ -13,7 +13,7 @@ const videos = [
     },{
         // 2) Programming with Mosh CONTAINER:
         link: "https://www.youtube.com/watch?v=_uQrJ0TkZlc&list=PL2PREgmkP8_kjnM4RLsWIel2NJkhW-znN",
-        thumbnail: "/youtube-project/Thumbnails/PythonMosh.png",
+        thumbnail: "/youtube-project/images/thumbnails/videos/PythonMosh.png",
         videoTime: "6:14:07",
         channelLink: "https://www.youtube.com/@programmingwithmosh",
         channelPicture: "/youtube-project/ChannelPictures/ProgrammingwithMosh.jpg",
@@ -24,7 +24,7 @@ const videos = [
     },{
         // 3) Markiplier CONTAINER:
         link: "https://www.youtube.com/watch?v=3PGx1VWM4tA&list=LL&index=26&t=1507s",
-        thumbnail: "/youtube-project/Thumbnails/unoFlip.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/unoFlip.jpg",
         videoTime: "29:37",
         channelLink: "https://www.youtube.com/@markiplier",
         channelPicture: "/youtube-project/ChannelPictures/Markiplier.jpg",
@@ -35,7 +35,7 @@ const videos = [
     },{
         // 4) SuperSimpleDev (HTML/CSS) CONTAINER:
         link: "https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22051s",
-        thumbnail: "/youtube-project/Thumbnails/HTMLCSS.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/HTMLCSS.jpg",
         videoTime: "6:31:24",
         channelLink: "https://www.youtube.com/@SuperSimpleDev",
         channelPicture: "/youtube-project/ChannelPictures/SuperDev.jpg",
@@ -46,7 +46,7 @@ const videos = [
     },{
         // 5) Mad Hat CONTAINER:
         link: "https://www.youtube.com/watch?v=YeWYlp9JP6g&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=9",
-        thumbnail: "/youtube-project/Thumbnails/MadHat.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/MadHat.jpg",
         videoTime: "21:59",
         channelLink: "https://www.youtube.com/@madhatistaken",
         channelPicture: "/youtube-project/ChannelPictures/madHat.jpg",
@@ -57,7 +57,7 @@ const videos = [
     },{
         // 6) C++ Snake Game CONTAINER:
         link: "https://www.youtube.com/watch?v=E_-lMZDi7Uw&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=4",
-        thumbnail: "/youtube-project/Thumbnails/SnakeGame.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/SnakeGame.jpg",
         videoTime: "11:15",
         channelLink: "https://www.youtube.com/@NVitanovic",
         channelPicture: "/youtube-project/ChannelPictures/NVitanovic.jpg",
@@ -68,7 +68,7 @@ const videos = [
     },{
         // 7) Tech Projects CONTAINER:
         link: "https://www.youtube.com/watch?v=LxkXT9WD7yk&list=LL&index=160",
-        thumbnail: "/youtube-project/Thumbnails/github.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/github.jpg",
         videoTime: "4:09",
         channelLink: "https://www.youtube.com/@TechProjects",
         channelPicture: "/youtube-project/ChannelPictures/TechProjects.jpg",
@@ -79,7 +79,7 @@ const videos = [
     },{
         // 8) Stefanovic CONTAINER:
         link: "https://www.youtube.com/watch?v=X7eAwyMvm2c&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=22",
-        thumbnail: "/youtube-project/Thumbnails/DACourses.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/DACourses.jpg",
         videoTime: "8:40",
         channelLink: "https://www.youtube.com/@Stefanovic92",
         channelPicture: "/youtube-project/ChannelPictures/StefaNovic.jpg",
@@ -90,7 +90,7 @@ const videos = [
     },{
         // 9) SuperSimpleDev (JavaScript) CONTAINER:
         link: "https://www.youtube.com/watch?v=EerdGm-ehJQ&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=7",
-        thumbnail: "/youtube-project/Thumbnails/JavaScript1.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/JavaScript1.jpg",
         videoTime: "22:15:57",
         channelLink: "https://www.youtube.com/@SuperSimpleDev",
         channelPicture: "/youtube-project/ChannelPictures/SuperDev.jpg",
@@ -101,7 +101,7 @@ const videos = [
     },{
         // 10) Garrett Codes CONTAINER:
         link: "https://www.youtube.com/watch?v=wufc6w8fqvY&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=13",
-        thumbnail: "/youtube-project/Thumbnails/Garrett Codes.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/Garrett Codes.jpg",
         videoTime: "4:41",
         channelLink: "https://www.youtube.com/@GarrettCodes",
         channelPicture: "/youtube-project/ChannelPictures/Garrett Codes.jpg",
@@ -112,7 +112,7 @@ const videos = [
     },{
         // 11) Tim Kim CONTAINER:
         link: "https://www.youtube.com/watch?v=WR1ydijTx5E&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=14",
-        thumbnail: "/youtube-project/Thumbnails/fourMonths.jpg",
+        thumbnail: "/youtube-project/images/thumbnails/videos/fourMonths.jpg",
         videoTime: "4:41",
         channelLink: "https://www.youtube.com/@TimKimMe",
         channelPicture: "/youtube-project/ChannelPictures/TimKim.jpg",
@@ -123,7 +123,7 @@ const videos = [
     },{
         // 12) How to Become a Developer CONTAINER:
         link: "https://www.youtube.com/watch?v=ldwlOzRvYOU&list=PL2PREgmkP8_k9YSZsOChy-dnDRbA991mf&index=21",
-        thumbnail: "/youtube-project/Thumbnails/Responsive.webp",
+        thumbnail: "/youtube-project/images/thumbnails/videos/Responsive.webp",
         videoTime: "2:12:20",
         channelLink: "https://www.youtube.com/@howtobecomeadeveloper",
         channelPicture: "/youtube-project/ChannelPictures/how-to.jpg",
