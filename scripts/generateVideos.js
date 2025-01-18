@@ -14,7 +14,7 @@ let bodyHTML = `
     <!-- Channel Picture: -->
     <div class = "channel-picture">
       <div class="profile-picture-container">
-          <img class="profile-picture" src="/youtube-project/ChannelPictures/ad-logo.png">
+          <img class="profile-picture" src="/youtube-project/images/channelPictures/ad-logo.png">
         </a>
       </div>
     </div>
